@@ -5,7 +5,7 @@ Demo Video Link: https://youtu.be/vLLbw-rlnKg
 Streamlit App: https://vivek-patnaik25-pyclimaexplo-team-algorythms-app-pfxhjy.streamlit.app/
 
 # Data
-You can download the climate NetCDF Files from the Repo.
+You can download the climate NetCDF Files from the Repo or from the left hanside bar of the appplication
 
 
 # PyClima Explorer+
