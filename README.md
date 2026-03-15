@@ -75,28 +75,3 @@ streamlit run app.py
 
 Open the URL shown in terminal (usually `http://localhost:8501`).
 
-## Deploy on Streamlit Community Cloud
-### Prerequisites
-- Your project pushed to a GitHub repository.
-- `app.py` and `requirements.txt` present at repo root.
-
-### Steps
-1. Push latest code to GitHub.
-2. Go to [https://share.streamlit.io](https://share.streamlit.io) and sign in.
-3. Click **New app**.
-4. Select:
-   - Repository: your repo
-   - Branch: your deployment branch (e.g. `main`)
-   - Main file path: `app.py`
-5. Click **Deploy**.
-
-Streamlit Cloud will install dependencies from `requirements.txt` and launch the app.
-
-## Common Deployment Notes
-- If deployment fails on dependencies, verify `requirements.txt` versions and redeploy.
-- If app loads but charts fail, check uploaded file format and coordinate names.
-- For updates: push to the same branch; Streamlit Cloud auto-redeploys.
-
-## Project Files
-- `app.py` -> main deployable app
-- `requirements.txt` -> dependency list
